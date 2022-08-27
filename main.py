@@ -24,6 +24,11 @@ __API_KEY__ = "key"
 __FIRST_MESSAGE__ = "Hi, F 21"
 __LAST_MESSAGE__ = "I have to close, send me a msg or call me on Whats App, i let you my number <3 +34 xxx xx xx xx"
 
+####### DIRECTORIES #######
+if not os.path.exists("conversations"): os.makedirs("conversations")
+if not os.path.exists("strangerPics"): os.makedirs("strangerPics")
+if not os.path.exists("images"): os.makedirs("images")
+
 def getDriver():
     s = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
