@@ -1,0 +1,9 @@
+**.png
+**.jpg
+**.webp
+**.gif
+**.json
+
+**/__pycache__
+
+prove.py
